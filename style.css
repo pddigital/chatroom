@@ -32,3 +32,34 @@ p{
   margin: 3px 0;
   font-size: 17px;
 }
+
+.messages-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid lightgrey;
+}
+
+.messages-container p:nth-child(odd){
+  color: black;
+  background-color:lightblue;
+}
+
+.messages-container p:nth-child(even){
+  color: white;
+  background-color:darkblue;
+}
+
+.messages-container p {
+  line-height: 2;
+  font-weight: bold;
+  word-break:
+}
+
+.messages-container span {
+  display:block;
+  padding: 10px;
+  text-align: center;
+  font-size: .8em;
+  font-weight: normal;
+}
